@@ -42,7 +42,7 @@
     else
     {
         // else render form
-        render("register_form.php", ["title" => "Register"]);
+        render("register_form.php", ["title" => "Register for an account"]);
     }
 
 ?>
