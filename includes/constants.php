@@ -3,7 +3,8 @@
     /**
      * constants.php
      *
-     * DecideWell
+     * Computer Science 50
+     * Problem Set 7
      *
      * Global constants.
      */

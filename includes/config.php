@@ -3,7 +3,7 @@
     /**
      * config.php
      *
-     * DecideWell
+     * Decide Well
      *
      * Configures pages.
      */

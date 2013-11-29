@@ -21,7 +21,7 @@
         // make sure user provides password confirmation
         if ($_POST["password"] != $_POST["confirmation"])
         {
-            apologize("Make sure your passwords match.");
+            apologize("Passwords do not match");
         }
         
         // creates a row for the user in the users SQL table
@@ -37,12 +37,12 @@
         $rows = query("SELECT LAST_INSERT_ID() AS id");
         $id = $rows[0]["id"];
         $_SESSION["id"] = $id;        
-        redirect("/");
+        redirect("/index.php");
     }
     else
     {
         // else render form
-        render("register_form.php", ["title" => "Register"]);
+        render("register_form.php", ["title" => "Register for an account"]);
     }
 
 ?>

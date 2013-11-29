@@ -1,3 +1,10 @@
+<?php
+
+    // configuration
+    require("../includes/config.php"); 
+
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -10,7 +17,7 @@
     <div class="container">
         
         <div id = top>
-            <a href="/"><img alt="cute cat" src="cat.jpg" width="100" height="80"/></a>
+            <a href="/"><img alt="cute cat" src="img/cat.jpg" width="100" height="80"/></a>
         </div>
         <div id = left> 
             <div id = menu1 class=menu> 
@@ -25,11 +32,14 @@
         </div>
         <div id = middle> Bubbles here 
                 <div class =bubbles> 
-                    <div> <a href="/"> <img alt = "circle" src= "circle.png" width="100" height= "100"/></a> </div>
+                    <div> <a href="/"> <img alt = "circle" src= "img/circle.png" width="100" height= "100"/></a> </div>
                 </div>
         </div>
-        <div id = bottom> Copyright etc. </div>
+        <div id = bottom> Copyright (c) AT DK </div>
         
     </div>
 </body>
 </html>
+
+
+
