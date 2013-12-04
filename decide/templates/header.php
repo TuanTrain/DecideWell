@@ -4,14 +4,14 @@
 
     <head>
 
-        <link href="/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
-        <link href="css/decide.css" rel="stylesheet"/>
+        <link href="../public/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="../public/css/bootstrap-theme.min.css" rel="stylesheet"/>
+        <link href="../public/css/decide.css" rel="stylesheet"/>
         <title> Decide Well </title>
 
-        <script src="/js/jquery-1.10.2.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/scripts.js"></script>
+        <script src="../public/js/jquery-1.10.2.min.js"></script>
+        <script src="../public/js/bootstrap.min.js"></script>
+        <script src="../public/js/scripts.js"></script>
 
     </head>
     

@@ -1,7 +1,8 @@
             </div>
 
             <div id="bottom">
-                Copyright &#169; AT DK
+                <br>
+                Copyright &#169; AT DK AB
             </div>
 
         </div>

@@ -21,7 +21,7 @@ body
 
 #top
 {
-    background-color: #E0FFFF;
+    background-color: #D4F1FA;
     padding-bottom: 5px;
     padding-top: 5px;
     border-bottom: 1px solid black;
@@ -61,20 +61,26 @@ body
 
 #middle
 {
-    background-color: #FAEBD7;
+    background-color: #A0E3FA;
     width: 80%;
-    height: 75%;
+    height: 110%;
     float: left;
     line-height: 75%;
-    padding-top: 180px;
     color: #FF69B4;
 }
 
 #bottom
 {
-    background-color: #FFF0F5;
+    background-color: #D4F1FA;
     height: 10%;
     clear: both;
+}
+
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 #oval
@@ -102,4 +108,14 @@ body
     color: purple;
     font-size: 60%;
     margin-top: 3px;
+}
+
+canvas {
+    border:1px solid red;
+}
+.dropdown{
+    position: absolute;
+    display:none;
+    background: #fff;
+    border: 1px #000 solid;
 }

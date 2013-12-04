@@ -1,5 +1,16 @@
+<script>
+    function addText()
+    {
+        var node=document.createElement("div");
+        var textnode=document.createTextNode("new thing");
+        node.appendChild(textnode);
+        document.getElementById("otext").appendChild(node);
+    }
+</script>
 
-Bubbles here 
-<div class =bubbles> 
-    <div> <a href="/"> <img alt = "circle" src= "img/circle.png" width="100" height= "100"/></a> </div>
-</div>
+<canvas id="myCanvas" width="1040%" height="760%"></canvas>
+<div id="menus"></div>
+
+<script src="../public/js/scripts.js"></script>
+
+       
