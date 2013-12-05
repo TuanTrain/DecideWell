@@ -84,6 +84,6 @@ function handleMouseDown(e) {
 }
 
 
-$("#myCanvas").mousedown(function (e) {
+$("#myCanvas").dblclick(function (e) {
     handleMouseDown(e);
 });
